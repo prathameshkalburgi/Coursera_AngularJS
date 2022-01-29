@@ -9,7 +9,7 @@ LunchCheckController.$inject = ['$scope'];
 function LunchCheckController($scope) {
   $scope.items = '';
   $scope.mssg = 'Please enter data first';
-	console.log("I am in angular");
+
   $scope.checkText = function() {
     if ($scope.items.length == 0) {
       $scope.mssg = 'Please enter data first';
